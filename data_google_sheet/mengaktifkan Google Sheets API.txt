@@ -1,0 +1,29 @@
+	Berikut adalah langkah-langkah untuk mengaktifkan Google Sheets API:
+
+1. Buka Console Pengembang Google:
+- Buka Google Cloud Console.
+
+2. Buat Proyek Baru atau Pilih Proyek yang Ada:
+- Di bagian atas kiri, pastikan Anda telah memilih atau membuat proyek baru. Jika tidak, klik dropdown di atas dan buat proyek baru.
+
+3. Aktifkan Google Sheets API:
+- Di panel navigasi di sebelah kiri, klik "API & Layanan" > "Library."
+- Temukan "Google Sheets API" dalam daftar library dan klik untuk membukanya.
+
+4. Aktifkan API:
+- Klik tombol "Aktifkan" untuk mengaktifkan Google Sheets API untuk proyek Anda.
+
+5. Setel Kredensial (Credentials):
+- Setelah mengaktifkan API, pilih "Kredensial" dari panel navigasi sebelah kiri.
+- Klik "Buat Kredensial" dan pilih "Kunci API."
+- Pilih jenis kunci API yang sesuai dengan kebutuhan Anda (biasanya Kunci API OAuth).
+
+6. Konfigurasi Kunci API OAuth (Opsional):
+- Jika Anda memilih Kunci API OAuth, Anda mungkin perlu mengkonfigurasi kredensial lebih lanjut.
+- Pilih aplikasi yang sesuai (misalnya, "Aplikasi Desktop") dan beri nama kredensial Anda.
+
+7. Unduh Kredensial:
+- Setelah membuat atau mengonfigurasi kredensial, unduh kunci API atau file JSON yang berisi informasi otentikasi. Anda akan menggunakan ini dalam aplikasi atau skrip Anda.
+
+8. Buka Google Sheets Anda:
+- Buka spreadsheet Google Sheets yang ingin Anda akses melalui API. Berikan izin akses kepada proyek Anda.

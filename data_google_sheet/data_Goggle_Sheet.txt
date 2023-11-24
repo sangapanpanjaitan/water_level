@@ -1,0 +1,30 @@
+1. Buat Proyek di Google Cloud Console:
+- Buka Google Cloud Console.
+- Pilih atau buat proyek di sudut kanan atas.
+
+2. Aktifkan Google Sheets API:
+- Di Google Cloud Console, buka "Library" dari menu navigasi di sebelah kiri.
+- Temukan "Google Sheets API" dan aktifkan untuk proyek Anda.
+
+3. Setel Kredensial:
+- Di halaman proyek, pilih "Credentials" dari menu navigasi di sebelah kiri.
+- Klik "Create Credentials" dan pilih "Service account key."
+- Isi formulir:
+ - Pilih atau buat "Service account" baru.
+ - Pilih peran (role) yang sesuai, misalnya, "Project" > "Editor".
+ - Pilih tipe kunci, seperti JSON.
+ - Klik "Create" untuk mengunduh kunci JSON yang akan digunakan dalam program Anda.
+
+4. Berikan Izin pada Spreadsheet:
+- Buka spreadsheet Google Sheets yang ingin Anda akses.
+- Bagikan spreadsheet dengan alamat email yang terkait dengan kunci JSON yang diunduh (Service Account).
+
+5. Install Library API pada Arduino IDE (Harus ada):
+- Jika Anda berencana menggunakan Arduino untuk mengirim data ke Google Sheets, Anda mungkin perlu menggunakan pustaka atau library tertentu.
+- Pastikan Anda menginstal library yang sesuai untuk proyek Arduino Anda.
+
+6. Gunakan Kunci JSON dalam Program Anda:
+- Masukkan kunci JSON yang diunduh ke dalam proyek Arduino atau program Python Anda sebagai bagian dari kredensial otentikasi.
+
+7. Gunakan API dalam Kode Anda:
+- Mulai gunakan Google Sheets API dalam kode program Anda dengan menggunakan kredensial dan token yang sesuai.
